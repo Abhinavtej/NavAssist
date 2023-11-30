@@ -198,7 +198,7 @@ function showNavigation() {
 
 function updateMap(currentLocation, destination){
     if (currentLocation != null){
-        const mapImageSrc = `/Maps/${currentLocation}_${destination}.png`;
+        const mapImageSrc = `Maps/${currentLocation}_${destination}.png`;
         document.getElementById('map').src = mapImageSrc;
     }
 }
