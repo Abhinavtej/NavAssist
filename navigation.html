@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavAssist-MRUH</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/navigation.css">
+</head>
+<body onload="showNavigation()">
+    <header>
+        <div class="logo-container">
+            <img src="Images/MRU.png" alt="Logo">
+        </div>
+        <h1 class="title">NavAssist</h1>
+    </header>
+    <div class="map-container">
+        <img id="map" src="/Maps/Ground_Floor.png" alt="Map Image">
+      </div>
+    <div class="directions">
+        <h3 style="text-align: center; text-decoration: underline;">Navigation Instructions (Beta)</h3>
+        <ul id="navigationSteps"></ul>
+    </div>
+    <script src="JavaScript/navigation.js"></script>
+</body>
+</html>
